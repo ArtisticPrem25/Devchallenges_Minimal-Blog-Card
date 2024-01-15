@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#FAFAF9;
+}
+
+.mainframe{
+    padding: 1em;
+    max-width: 420px;
+    border-radius: 1em;
+    background-color: #FFFFFF;   
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+img { 
+    max-width: 100%;
+    border-radius: 1em;
+}
+
+.mainframe .tag{
+    font-size: 0.625rem;
+    padding: 0.5rem 1rem;
+    width: 70px;
+    margin-top: 0.625rem;
+    text-align: center;
+    font-weight: bold;
+    color: #883AE1;
+    border-radius: 2em;
+    background-color: #E6D6FC;
+}
+
+.mainframe h1{
+    color:#20293A;
+    font-size: 1.125rem;
+    margin: 1rem 0 0.625rem 0;
+}
+
+.mainframe p{
+    color:#6C727F;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.mainframe #name{
+    border-top: 1px solid #6c727f59;
+    margin-top: 1rem;
+    padding-top:1rem;
+    font-size: 0.700rem;
+}
+
+@media screen and (min-width: 640px) {
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+}
